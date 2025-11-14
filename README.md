@@ -80,10 +80,3 @@ This command ingests the dataset, writes entries to SQLite, and prints generated
 - Schedule `analyze_logs.py` via cron/Task Scheduler to process daily log drops.
 - Replace SQLite with PostgreSQL or integrate with message queues (Kafka) for streaming workloads.
 
-## Deliverables for Presentation
-
-1. **Live Demo** – Show API health, ingest events, and visualize alerts.
-2. **Architecture Slide** – Highlight pipeline components and detection flow.
-3. **Detection Deep Dive** – Explain rule logic and how false positives are handled.
-4. **Roadmap** – Propose MFA reminders, SOAR integrations, and ML anomaly detection as future enhancements.
-
