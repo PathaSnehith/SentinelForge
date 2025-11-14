@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.30.1
+sqlmodel==0.0.22
+pydantic==2.8.2
+python-dateutil==2.9.0.post0
+pandas==2.2.3
+streamlit==1.39.0
+

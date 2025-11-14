@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SentinelForge SOC Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SentinelForge SOC Dashboard</h1>
+      <div class="dataset-controls">
+        <select id="dataset-select">
+          <option value="">Select Dataset...</option>
+        </select>
+        <button id="ingest-btn">Ingest Selected Dataset</button>
+      </div>
+    </header>
+    <section class="metrics">
+      <div class="metric">
+        <span id="alert-count">0</span>
+        <p>Active Alerts</p>
+      </div>
+      <div class="metric">
+        <span id="log-count">0</span>
+        <p>Recent Logs</p>
+      </div>
+      <div class="metric">
+        <span id="last-refresh">--</span>
+        <p>Last Refresh</p>
+      </div>
+    </section>
+    <main>
+      <section>
+        <h2>Alerts</h2>
+        <table id="alerts-table">
+          <thead>
+            <tr>
+              <th>Severity</th>
+              <th>Rule</th>
+              <th>Description</th>
+              <th>Entities</th>
+              <th>Created</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Recent Logs</h2>
+        <table id="logs-table">
+          <thead>
+            <tr>
+              <th>Timestamp</th>
+              <th>User</th>
+              <th>Action</th>
+              <th>Status</th>
+              <th>Device</th>
+              <th>IP</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>SentinelForge &copy; 2025</p>
+    </footer>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
+

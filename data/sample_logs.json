@@ -1,0 +1,127 @@
+[
+  {
+    "timestamp": "2025-11-14T08:00:03Z",
+    "source_ip": "192.168.10.24",
+    "user": "alice",
+    "action": "login",
+    "status": "failed",
+    "device": "corp-laptop-7",
+    "geo": "Bangalore"
+  },
+  {
+    "timestamp": "2025-11-14T08:01:20Z",
+    "source_ip": "192.168.10.24",
+    "user": "alice",
+    "action": "login",
+    "status": "failed",
+    "device": "corp-laptop-7",
+    "geo": "Bangalore"
+  },
+  {
+    "timestamp": "2025-11-14T08:02:41Z",
+    "source_ip": "192.168.10.24",
+    "user": "alice",
+    "action": "login",
+    "status": "failed",
+    "device": "corp-laptop-7",
+    "geo": "Bangalore"
+  },
+  {
+    "timestamp": "2025-11-14T08:03:12Z",
+    "source_ip": "192.168.10.24",
+    "user": "alice",
+    "action": "login",
+    "status": "failed",
+    "device": "corp-laptop-7",
+    "geo": "Bangalore"
+  },
+  {
+    "timestamp": "2025-11-14T08:04:06Z",
+    "source_ip": "192.168.10.24",
+    "user": "alice",
+    "action": "login",
+    "status": "failed",
+    "device": "corp-laptop-7",
+    "geo": "Bangalore"
+  },
+  {
+    "timestamp": "2025-11-14T02:10:10Z",
+    "source_ip": "198.51.100.120",
+    "user": "charlie",
+    "action": "login",
+    "status": "success",
+    "device": "home-laptop",
+    "geo": "London"
+  },
+  {
+    "timestamp": "2025-11-14T08:30:44Z",
+    "source_ip": "203.0.113.55",
+    "user": "bob",
+    "action": "login",
+    "status": "success",
+    "device": "vpn-gateway",
+    "geo": "Singapore"
+  },
+  {
+    "timestamp": "2025-11-14T09:05:44Z",
+    "source_ip": "198.51.100.77",
+    "user": "bob",
+    "action": "login",
+    "status": "success",
+    "device": "vpn-gateway",
+    "geo": "Paris"
+  },
+  {
+    "timestamp": "2025-11-14T11:15:22Z",
+    "source_ip": "192.168.30.4",
+    "user": "diana",
+    "action": "download",
+    "status": "success",
+    "device": "lab-workstation",
+    "resource": "genome-dataset.tar.gz",
+    "bytes_transferred": 734003200,
+    "geo": "Hyderabad"
+  },
+  {
+    "timestamp": "2025-11-14T12:40:10Z",
+    "source_ip": "192.168.22.8",
+    "user": "charlie",
+    "action": "download",
+    "status": "success",
+    "device": "finance-vdi",
+    "resource": "quarterly-reports.zip",
+    "bytes_transferred": 12582912,
+    "geo": "Mumbai"
+  },
+  {
+    "timestamp": "2025-11-14T13:10:05Z",
+    "source_ip": "192.168.50.9",
+    "user": "ed",
+    "action": "download",
+    "status": "success",
+    "device": "unmanaged-tablet",
+    "resource": "finance-payroll.xlsx",
+    "bytes_transferred": 104857600,
+    "geo": "Pune"
+  },
+  {
+    "timestamp": "2025-11-14T14:20:45Z",
+    "source_ip": "192.168.77.5",
+    "user": "intern",
+    "action": "config_change",
+    "status": "success",
+    "device": "helpdesk-02",
+    "resource": "firewall-policy",
+    "geo": "Hyderabad"
+  },
+  {
+    "timestamp": "2025-11-14T23:55:12Z",
+    "source_ip": "192.168.55.2",
+    "user": "service-account",
+    "action": "login",
+    "status": "success",
+    "device": "automation-node",
+    "geo": "Bangalore"
+  }
+]
+
